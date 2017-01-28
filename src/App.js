@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Match, Miss } from 'react-router';
-import Home from './Home';
-import About from './About';
-import Writings from './Writings';
-import Resources from './Resources';
+import Home from './page_components/Home';
+import About from './page_components/About';
+import Writings from './page_components/Writings';
+import Resources from './page_components/Resources';
 import './App.css';
 
 class App extends Component {
