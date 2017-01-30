@@ -2,26 +2,24 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Match, Miss } from 'react-router';
 import Home from './page_components/Home';
 import About from './page_components/About';
+import Startups from './page_components/Startups';
+import Agencies from './page_components/Agencies';
+import Freelancers from './page_components/Freelancers';
 import Writings from './page_components/Writings';
-import Resources from './page_components/Resources';
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div>
-          <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/about'>About</Link></li>
-            <li><Link to='/writings'>Writings</Link></li>
-            <li><Link to='/resources'>Resources</Link></li>
-          </ul>
-          <hr/>
+        <div id="wrap" className="u-flex-center">
             <Match exactly pattern='/' component={Home}/>
             <Match pattern='/about' component={About}/>
             <Match pattern='/writings' component={Writings}/>
-            <Match pattern='/resources' component={Resources}/>
+            <Match pattern='/startup-consulting' component={Startups}/>
+            <Match pattern='/creative-agency-consulting' component={Agencies}/>
+            <Match pattern='/freelancer-consulting' component={Freelancers}/>
         </div>
       </Router>
     );

@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import Footer from './global/Footer';
+import Footer from '../global/Footer';
 
 class Writings extends Component {
 	render() {
 		return (
 			<div>
-				<header>
-					<h2><strong>Writings</strong><br />Thoughts on business, technology and other things.</h2>
-				</header>
-				<section class="large-pad-top">
-	        <div class="container">
+				<section className="large-pad-top">
+	        <div className="container">
+	        	<h1><strong>Writings</strong><br />Thoughts on business, technology and other things.</h1>
 	          <p>Nov. 17, 2016 <a href="https://notes.builtbygood.co/getting-started-with-the-wordpress-rest-api-part-1-intro-66cf14d3ebb1#.91fbfrj9c" target="_blank">Getting Started with the WordPress REST API: Part 1&mdash;Intro</a></p>
 	          <p>Nov. 14, 2016 <a href="https://medium.com/@jchiatt/what-ive-been-up-to-rafl-giveaways-7b81d25731ec#.wyc7jb7vq" target="_blank">What I’ve been up to: rafl Giveaways</a></p>
 	          <p>Nov. 11, 2016 <a href="https://medium.com/@jchiatt/what-ive-been-up-to-podcasts-i-ve-been-listening-to-a949ae8f6865#.vt3qhcebh" target="_blank">What I’ve been up to: Podcasts I've been listening to</a></p>

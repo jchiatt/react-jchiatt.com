@@ -6,8 +6,9 @@ class Footer extends Component {
 		return (
 			<footer>
 				<div className="container clearfix">
-					<Link to='/about'>About</Link>
-					<Link to='/writings'>Writings</Link>
+					<Link to='/' className="link">Home.</Link>
+					<Link to='/about' className="link">About.</Link>
+					<Link to='/writings' className="link">Writings.</Link>
 				</div>
 			</footer>
 		)
