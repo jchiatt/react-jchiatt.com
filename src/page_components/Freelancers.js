@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Footer from '../global/Footer';
-import './services.css';
+import '../services.css';
 
 class Freelancers extends Component {
 	render() {
