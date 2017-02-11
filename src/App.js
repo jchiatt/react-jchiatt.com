@@ -6,6 +6,7 @@ import Startups from './page_components/Startups';
 import Agencies from './page_components/Agencies';
 import Freelancers from './page_components/Freelancers';
 import Writings from './page_components/Writings';
+import ThankYou from './page_components/ThankYou';
 
 import './App.css';
 
@@ -13,13 +14,14 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div id="wrap" className="u-flex-center">
+        <div id="wrap" className="flex-center">
             <Match exactly pattern='/' component={Home}/>
             <Match pattern='/about' component={About}/>
             <Match pattern='/writings' component={Writings}/>
             <Match pattern='/startup-consulting' component={Startups}/>
             <Match pattern='/creative-agency-consulting' component={Agencies}/>
             <Match pattern='/freelancer-consulting' component={Freelancers}/>
+            <Match pattern='/thank-you' component={ThankYou}/>
         </div>
       </Router>
     );

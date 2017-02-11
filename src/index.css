@@ -68,6 +68,14 @@ UTILITIES
   text-decoration: line-through; 
 }
 
+.u-pull-left {
+  float:left;
+}
+
+.u-pull-right {
+  float:right;
+}
+
 /* ––––––––––––––––––––––––––––––––––––––––––––
 
 GLOBAL LAYOUT
@@ -110,7 +118,7 @@ section {
 }
 
 .home .container {
-  max-width: 1024px; 
+  max-width: 1024px!important; 
 }
 .home section {
   font-size: 35px;
@@ -239,6 +247,10 @@ form {
     color: rgba(46, 59, 110, 0.35); 
   }
 
+  .newsletter-description{
+    font-size:19px;
+  }
+
 /* –––––––––––––––––––––––––––––––––––––––––––
 
 SINGLE PAGE LAYOUT
@@ -347,7 +359,7 @@ MEDIA QUERIES
     padding-top: 120px; 
   }
     .home .container {
-      max-width: 1024px; 
+      max-width: 1024px!important; 
     }
     .home section {
       font-size: 30px;
@@ -407,7 +419,7 @@ MEDIA QUERIES
     padding-top: 60px; 
   }
     .home .container {
-      max-width: 1024px; 
+      max-width: 1024px!important; 
     }
     .home section {
       font-size: 30px;
