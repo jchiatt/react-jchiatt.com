@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div id="wrap" className="flex-center">
+        <div id="wrap">
             <Match exactly pattern='/' component={Home}/>
             <Match pattern='/about' component={About}/>
             <Match pattern='/writings' component={Writings}/>
