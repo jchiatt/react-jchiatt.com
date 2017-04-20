@@ -8,6 +8,12 @@ class Writings extends Component {
 				<section className="large-pad-top">
 	        <div className="container">
 	        	<h1><strong>Writings</strong><br />Thoughts on business, technology and other things.</h1>
+	          <p>Apr. 20, 2017 <a href="https://medium.com/@jchiatt/the-comcast-effect-db77884551f0" target="_blank">The Comcast Effect</a></p>
+	          <p>Apr. 6, 2017 <a href="https://medium.com/@jchiatt/the-wing-stop-effect-ec48592b72e5" target="_blank">The Wing Stop Effect</a></p>
+	          <p>Mar. 24, 2017 <a href="https://medium.com/@jchiatt/money-cant-be-your-only-motivation-8a6cbc020125" target="_blank">Money can't be your only motivation</a></p>
+	          <p>Mar. 3, 2017 <a href="https://medium.com/@jchiatt/la-la-land-and-the-value-of-foresight-bd08924b24ef" target="_blank">La La Land and the value of foresight</a></p>
+	          <p>Feb. 27, 2017 <a href="https://medium.com/@jchiatt/running-the-race-with-people-is-better-than-winning-the-race-alone-7e81e20415b9" target="_blank">Running the race with people is better than winning the race alone</a></p>
+	          <p>Feb. 17, 2017 <a href="https://medium.com/@jchiatt/dont-forget-to-say-no-often-b00596f8adfe" target="_blank">Don't forget to say "No" often</a></p>
 	          <p>Feb. 8, 2017 <a href="https://medium.com/@jchiatt/headless-wordpress-with-react-d573bca02ee0#.h1cvnask2" target="_blank">Headless WordPress with React</a></p>
 	          <p>Dec. 3, 2016 <a href="https://notes.builtbygood.co/getting-started-with-the-wordpress-rest-api-part-3-getting-posts-dd2ed566e1b9#.ho6xl57z6" target="_blank">Getting Started with the WordPress REST API: Part 3&mdash;GETting Posts</a></p>
 	          <p>Nov. 29, 2016 <a href="https://notes.builtbygood.co/the-complexities-of-programming-explained-using-a-tree-limb-and-a-car-efe997736345#.qpm6wfvfv" target="_blank">The Complexities of Programming Explained Using a Tree Limb and a Car</a></p>
