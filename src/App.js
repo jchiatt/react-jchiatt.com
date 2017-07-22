@@ -7,6 +7,7 @@ import Agencies from './page_components/Agencies';
 import Freelancers from './page_components/Freelancers';
 import Writings from './page_components/Writings';
 import ThankYou from './page_components/ThankYou';
+import RoadmappingSession from './page_components/RoadmappingSession';
 
 import './App.css';
 
@@ -18,6 +19,7 @@ class App extends Component {
             <Match exactly pattern='/' component={Home}/>
             <Match pattern='/about' component={About}/>
             <Match pattern='/writings' component={Writings}/>
+            <Match pattern='/roadmapping' component={RoadmappingSession}/>
             <Match pattern='/startup-consulting' component={Startups}/>
             <Match pattern='/creative-agency-consulting' component={Agencies}/>
             <Match pattern='/freelancer-consulting' component={Freelancers}/>

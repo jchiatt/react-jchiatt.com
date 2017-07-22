@@ -1,0 +1,73 @@
+h1.roadmapping-title {
+	font-size: 42px!important;
+	margin-bottom: 25px!important;
+}
+
+.huge {
+  font-size: 50px!important;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 20px 20px 80px!important;
+}
+
+h2.roadmapping-subtitle {
+	font-size: 40px!important;
+}
+
+ol li {
+  font-size: 22px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+div.testimonial {
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+div.testimonial blockquote {
+  font-style: italic;
+  border-left: 5px solid #f0f0f0;
+  padding-left: 10px
+}
+
+img.testimonial-avatar {
+  width: 100px;
+  border-radius: 100px;
+  float: left;
+}
+
+#clearflix {
+  clear: both;
+}
+
+blockquote p.quoted {
+  float: left;
+  margin-left: 25px;
+}
+
+@media (max-width: 480px) {
+  h1.roadmapping-title {
+  	font-size: 36px!important;
+  }
+
+  h2.roadmapping-subtitle {
+    font-size: 26px!important;
+  }
+
+  .page-section p.roadmapping-paragraph {
+    font-size: 20px;
+  }
+
+  .huge {
+    font-size: 27px!important;
+  }
+
+  ol {
+    padding: 10px!important;
+  }
+
+  blockquote p.quoted {
+    margin-left: auto!important;
+  }
+}
