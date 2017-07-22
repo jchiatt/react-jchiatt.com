@@ -11,7 +11,9 @@ class RoadmappingSession extends Component {
             <section className="page-section">
               <h1 className="roadmapping-title">Book a Roadmapping Session</h1>
               <p className="roadmapping-paragraph">
-                Before I take on a project, my prospects and I go through a Roadmapping Session. This is where you and I will work together to dive into your business — where's it's been, where it is, and where you want it to go. Then, based on resources such as timeline, budget, technical knowledge of staff, etc., we explore various routes that can be taken to help get your startup closer to where you're trying to go.
+              Before we start to work on a project together, the best way for us both to understand the outcomes you’re looking for is to work through a Roadmapping Session together.<br /><br />
+
+            A Roadmapping Sessions is where you and I will work together to dive into your business &mdash; where’s it’s been, where it is, and where you want it to go. Then, based on your available resources (<span className="em">such as timeline, budget, technical knowledge of staff, etc.</span>) we will explore the various routes that we can take to help get from where you are your to where you’re trying to go.
               </p>
             </section>
 
@@ -73,7 +75,7 @@ class RoadmappingSession extends Component {
 
             <section className="page-section">
               <h2>Ready to get started?</h2>
-              <p className="roadmapping-paragraph">Simply apply for your Roadmapping Session <a href="#" target="_blank">here</a>. The price is $1,500.</p>
+              <p className="roadmapping-paragraph">Simply <a href="https://jchiatt.typeform.com/to/sASgpX" target="_blank">apply for your Roadmapping Session here</a>. The price is $1,500.</p>
             </section>
 
             <section className="page-section">
@@ -89,7 +91,7 @@ class RoadmappingSession extends Component {
                   <img className="testimonial-avatar" src="john-morgan.jpg" />
                   <p className="quoted">John Morgan Hughes<br />Founder, Village Healthcare</p>
                 </blockquote>
-                <div id="clearflix"></div>
+                <div id="clearfix"></div>
               </div>
             </section>
 

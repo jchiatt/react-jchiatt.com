@@ -14,6 +14,10 @@ h2.roadmapping-subtitle {
 	font-size: 40px!important;
 }
 
+p.roadmapping-paragraph span.em {
+  font-style: italic;
+}
+
 ol li {
   font-size: 22px;
   margin-bottom: 15px;
@@ -37,7 +41,7 @@ img.testimonial-avatar {
   float: left;
 }
 
-#clearflix {
+#clearfix {
   clear: both;
 }
 
