@@ -10,7 +10,7 @@ class Footer extends Component {
             <Link to='/writings' className="link">Writings.</Link>
           </div>
           <div className="footer-link">
-            <Link to="/roadmapping" className="link">Roadmapping</Link>
+            <Link to="/roadmapping" className="link">Roadmapping.</Link>
           </div>
           <div className="footer-link">
             <a href="mailto:jc@jchiatt.com">Get in touch.</a>
