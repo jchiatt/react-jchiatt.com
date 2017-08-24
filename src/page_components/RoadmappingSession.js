@@ -123,7 +123,7 @@ class RoadmappingSession extends Component {
                     <strong>Why not just send me an estimate and bill hourly? Why overcomplicate things?</strong><br />
                   <ol>
                     <li>Shooting off a timeline and budget estimation from the hip is a dangerous gamble in terms of getting you closer to the actual <em>outcomes</em> you're looking for. I've had clients who thought they needed Widget A (with a price tag of $50k-100k) when really they only needed Widget B (with a price tag of $4k).</li>
-                    <li>Frankly put, humans (include myself) are <em>terrible</em> at estimating. Whatever timeline and budget I give you while inevitably be wrong.</li>
+                    <li>Frankly put, humans (include myself) are <em>terrible</em> at estimating. Whatever timeline and budget I give you will inevitably be wrong.</li>
                     <li>I don't bill hourly. It is a terrible way to do business and hurts all parties involved.</li>
                   </ol>
                     </li>
